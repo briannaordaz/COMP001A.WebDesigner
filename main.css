@@ -1,0 +1,79 @@
+
+.external-css {
+    color: #ce4384; 
+    background-color: #ce4384; 
+}
+/* Resetting some default styles using multiple selectors separated by commas */
+body, h1, h2, h5, p, ul, li, a {
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* HTML element selector */
+body {
+    background-color: #e4dce0; 
+}
+
+h1 {
+    color: #000000; 
+    font-size: 2em; 
+    margin-bottom: 1em; 
+}
+
+h2 {
+    font-size: 1.5em; 
+    color: #000000; 
+}
+h5 {
+    font-size: 1.5em;
+    color: #000000;
+}
+/* Styling the link within the paragraph */
+p {
+    font-size: 16px; 
+    color: #ce4384; 
+    margin-bottom: 12px; 
+}
+/* Styling the unordered list */
+ul {
+    list-style-type: none; 
+    margin-left: 20px; 
+    margin-bottom: 12px; 
+}
+
+ul li {
+    margin-bottom: 5px; 
+    color: #ce4384;
+}
+
+/* Styling the unordered list within a div */
+div ul {
+    list-style-type: square; 
+}
+
+/* Styling the link in its normal state */
+a {
+    display: inline-block; 
+    color: #ce4384; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #ce4384; 
+    transition: all 0.3s ease; 
+}
+/* Conditional styling for the hover state */
+a:hover {
+    background-color: #ce4384; 
+    color: white; 
+}
+/* Styling the button */
+button {
+    padding: 5px 10px; 
+    border: none; 
+    background-color: #b0efff; 
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+/* Conditional styling for the hover state */
+button:hover {
+    background-color: rgb(0, 0, 0); 
+}
